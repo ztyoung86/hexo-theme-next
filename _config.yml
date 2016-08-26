@@ -30,9 +30,9 @@ canonical: true
 menu:
   home: /
   #about: /about
+  archives: /archives
   categories: /categories
   tags: /tags
-  archives: /archives
   #commonweal: /404.html
 
 
@@ -213,8 +213,8 @@ scroll_to_more: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 200
 
 
 # Wechat Subscriber
@@ -244,8 +244,12 @@ mathjax:
 # Baidu Analytics ID
 #baidu_analytics:
 
-# Duoshuo ShortName
-#duoshuo_shortname:
+## Duoshuo ShortName
+duoshuo_shortname: ztyoung
+# 多说分享服务
+duoshuo_share: true
+# 多说热评文章 true 或者 false
+duoshuo_hotartical: true
 
 # Disqus
 #disqus_shortname:
